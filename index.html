@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+ <head>
+   <title>BIG</title>
+   <link href="style.css" rel="stylesheet">
+ </head>
+ <body>
+ 
+   <section class="header">
+      <div>
+        <h1>My Page</h1>
+         <hr>
+        <h1>This is My website</h1>
+        <p>This shit if popping up <br> nigga</p>
+        <p>This is how to build websites</p>
+        <div id="answer"></div>
+        <div id="img">
+            <h1>Here is the image</h1>
+
+        </div>
+      
+      </div>
+
+   </section>
+   <section class="nav"></section>
+   <section class="About"></section>
+   <section class="skills"></section>
+   <section class="section"></section>
+   <section class="contact"></section>
+ </body>
+ <script>
+
+      var count = 1;
+      var sum= 0;
+      var product = 1;
+      var div = document.getElementById("answer")
+
+      while (count <= 4) {
+        sum += count;
+        product *= count;
+        count++;
+      }
+      
+     div.innerHTML = "Product is: " + product + " and Sum is " + sum; 
+      
+
+  
+     
+ </script>
+</html>

@@ -1,0 +1,33 @@
+body {
+  position:absolute;
+  background-color:blue;
+  color:red ;
+
+
+}
+section {
+  position: relative;
+  text-align:center;
+ 
+  
+
+}
+hr {
+  width:75%;
+}
+
+button {
+width:80px;
+height: 20px;
+border-radius: 5px;
+background-color: yellow;
+
+
+}
+#answer {
+  padding: 0px 20px 0px 50px;
+}
+#img {
+
+  padding: 0px 20px 0px 50px;
+}
