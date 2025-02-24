@@ -31,3 +31,42 @@ background-color: yellow;
 
   padding: 0px 20px 0px 50px;
 }
+.circle {
+  width:150px;
+  height:150px;
+}
+.circle svg {
+position:relative;
+width:150px;
+height:150px;
+transform: rotate(270deg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
